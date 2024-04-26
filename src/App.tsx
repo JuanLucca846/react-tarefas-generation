@@ -1,7 +1,15 @@
+import Card from "./components/Card/Card";
+import Contador from "./components/Contador/Contador";
+import Task from "./components/Task/Task";
+
 function App() {
   return (
-    <h1>Hello World</h1>
-  )
+    <>
+      <Card titulo="teste" descricao="abc" />;
+      <Contador />;
+      <Task />
+    </>
+  );
 }
 
-export default App
+export default App;
